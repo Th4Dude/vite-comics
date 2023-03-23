@@ -16,7 +16,7 @@ export default {
 <template>
   <mainHeader></mainHeader>
   <Main></main>
-  <Footer></footer>
+  <Footer></Footer>
 </template>
 
 <style lang="scss" scoped>

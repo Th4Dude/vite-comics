@@ -1,6 +1,8 @@
 <script>
 
     import footerShop from './footerShop.vue';
+    import footerInfo from './footerInfo.vue';
+    import footerSocial from './footerSocial.vue';
 
     export default{
         data(){
@@ -10,20 +12,17 @@
         },
         components :{
             footerShop,
+            footerInfo,
+            footerSocial,
         }
-
     }
 
 </script>
 <template>
     
     <footerShop></footerShop>
-
-    <div class="container_info">
-        <div>prima colonna</div>
-        <div>seconda colonna</div>
-        <div>terza colonna</div>
-    </div>
+    <footerInfo></footerInfo>
+    <footerSocial></footerSocial>
 
 </template>
 <style scoped>

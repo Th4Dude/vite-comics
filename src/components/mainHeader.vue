@@ -9,7 +9,8 @@
 
 </script>
 <template>
-    <div>Logo</div>
+    
+    <div><img src="/dc-logo.png" alt="logo"></div>
     <div>
         <li><a href="">Character</a></li>
         <li><a href="">Comics</a></li>
@@ -22,5 +23,12 @@
         <li><a href=""></a>News</li>
         <li><a href=""></a>Shop</li>
     </div>
+
 </template>
-<style scoped></style>
+
+<style scoped>
+
+
+
+
+</style>
