@@ -1,45 +1,62 @@
 <script>
 
-    export default{
-        data(){
-            return {
-            name : 'footerShop'
-            }
+export default {
+    data() {
+        return {
+            name: 'footerShop'
         }
     }
+}
 
 </script>
 <template>
+    <div class="main_container">
 
-    <div>
-        
-        <div>
-            <img src="" alt="">
+        <div class="flex">
+            <img src="/buy-comics-digital-comics.png" alt="">
             <h3>Digital Comics</h3>
         </div>
-        <div>
-            <img src="" alt="">
+        <div class="flex">
+            <img src="/buy-comics-merchandise.png" alt="">
             <h3>DC Merchandise</h3>
         </div>
-        <div>
-            <img src="" alt="">
+        <div class="flex">
+            <img src="/buy-comics-subscriptions.png" alt="">
             <h3>Subscription</h3>
         </div>
-        <div>
-            <img src="" alt="">
+        <div class="flex">
+            <img src="/buy-comics-shop-locator.png" alt="">
             <h3>Comics Shop Locator</h3>
         </div>
-        <div>
-            <img src="" alt="">
+        <div class="flex">
+            <img src="/buy-dc-power-visa.svg" alt="">
             <h3>DC Power Visa</h3>
         </div>
 
     </div>
-
 </template>
-<style scoped>
+<style lang="scss" scoped>
+.main_container {
 
+    background-color: #0282f9;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
 
+    .flex {
+        display: flex;
+    }
 
+    img {
+        width: 40px;
+        height: 60px;
+    }
 
+    h3 {
+        color: white;
+        padding: 0 15px;
+    }
+}
 </style>
