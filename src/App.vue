@@ -15,11 +15,12 @@ export default {
 
 <template>
   <mainHeader></mainHeader>
-  <Main></main>
+  <Main></Main>
   <Footer></Footer>
 </template>
 
 <style lang="scss" scoped>
+  
 
 
 

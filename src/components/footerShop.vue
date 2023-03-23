@@ -10,8 +10,9 @@
 
 </script>
 <template>
-    
+
     <div>
+        
         <div>
             <img src="" alt="">
             <h3>Digital Comics</h3>
@@ -32,6 +33,7 @@
             <img src="" alt="">
             <h3>DC Power Visa</h3>
         </div>
+
     </div>
 
 </template>

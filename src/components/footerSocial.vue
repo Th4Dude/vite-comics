@@ -12,8 +12,13 @@
 <template>
     
     <div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, culpa dolorem officiis ex molestias ab minima perferendis nulla alias reprehenderit laborum vel nobis animi! Consectetur, deleniti quisquam. Fugiat, ea ipsam.</p>
+        <p>squam. Fugiat, ea ips</p>
     </div>
     
 </template>
 <style scoped>
+    
+
+
+
+</style>
