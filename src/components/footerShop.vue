@@ -7,9 +7,10 @@
             }
         }
     }
-    
+
 </script>
 <template>
+    
     <div>
         <div>
             <img src="" alt="">
