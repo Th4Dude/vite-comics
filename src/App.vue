@@ -4,7 +4,7 @@ import Main from './components/main.vue';
 import Footer from './components/mainFooter.vue';
 
 export default {
-  components :{
+  components: {
     mainHeader,
     Main,
     Footer,
@@ -19,6 +19,4 @@ export default {
   <Footer></Footer>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

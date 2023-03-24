@@ -6,24 +6,24 @@ export default {
             name: 'footerShop',
             cards: [
                 {
-                    name :"DIGITAL COMICS",
-                    image :"/buy-comics-digital-comics.png",
+                    name: "DIGITAL COMICS",
+                    image: "/buy-comics-digital-comics.png",
                 },
                 {
-                    name :"DC MERCHANDISE",
-                    image :"/buy-comics-merchandise.png",
+                    name: "DC MERCHANDISE",
+                    image: "/buy-comics-merchandise.png",
                 },
                 {
-                    name :"SUBSCRIPTION",
-                    image :"/buy-comics-subscriptions.png",
+                    name: "SUBSCRIPTION",
+                    image: "/buy-comics-subscriptions.png",
                 },
                 {
-                    name :"COMIC SHOP LOCATOR",
-                    image :"/buy-comics-shop-locator.png",
+                    name: "COMIC SHOP LOCATOR",
+                    image: "/buy-comics-shop-locator.png",
                 },
                 {
-                    name :"DC POWER VISA",
-                    image :"/buy-dc-power-visa.svg",
+                    name: "DC POWER VISA",
+                    image: "/buy-dc-power-visa.svg",
                 },
             ]
         }
@@ -32,20 +32,17 @@ export default {
 </script>
 
 <template>
-
     <div class="main_container">
         <div class="container_icons">
             <div v-for="button in cards" class="flex">
                 <div class="img flex"><img :src="button['image']" alt="">
-                   <h3>{{button.name}}</h3>
+                    <h3>{{ button.name }}</h3>
                 </div>
             </div>
         </div>
     </div>
-
 </template>
 <style lang="scss" scoped>
-
 .main_container {
 
     background-color: #0282f9;

@@ -44,9 +44,7 @@ export default {
 </script>
 <template>
     <div class="container_info">
-
         <div class="container_list_info">
-
             <div class="padding-5">
                 <div>
                     <h3>DC COMICS</h3>
@@ -63,19 +61,16 @@ export default {
             </div>
             <div class="padding-5">
                 <h3>SITE</h3>
-            <li v-for="sites in sites"><a href="#">{{ sites }}</a></li>
+                <li v-for="sites in sites"><a href="#">{{ sites }}</a></li>
             </div>
-
         </div>
-        <div >
-                <img class="logo" src="/dc-logo-bg.png" alt="">
-            </div>
-
+        <div>
+            <img class="logo" src="/dc-logo-bg.png" alt="">
+        </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
-
 .container_info {
     width: 100%;
     background-image: url(/footer-bg.jpg);
@@ -102,28 +97,22 @@ div h3 {
     margin: 0;
     padding: 10px;
 }
-
 a {
     color: lightgrey;
     margin: 0;
     padding: 15px 10px;
     text-decoration: none;
 }
-li{
+li {
     list-style: none;
     padding-top: 5px;
-    
 }
 
 .logo {
+    position: absolute;
     width: 500px;
     height: 500px;
-    position: absolute;
     top: -50px;
     right: 300px;
 }
-
-
-
-
 </style>

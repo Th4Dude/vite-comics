@@ -18,11 +18,11 @@ export default {
             <div class="social">
                 <h4>FOLLOW US</h4>
                 <ul>
-                    <li>Social</li>
-                    <li>Social</li>
-                    <li>Social</li>
-                    <li>Social</li>
-                    <li>Social</li>
+                    <li><img src="/footer-facebook.png" alt=""></li>
+                    <li><img src="/footer-periscope.png" alt=""></li>
+                    <li><img src="/footer-pinterest.png" alt=""></li>
+                    <li><img src="/footer-twitter.png" alt=""></li>
+                    <li><img src="/footer-youtube.png" alt=""></li>
                 </ul>
             </div>
         </div>
