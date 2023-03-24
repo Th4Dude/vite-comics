@@ -67,9 +67,9 @@ export default {
             </div>
 
         </div>
-        <!-- <div >
+        <div >
                 <img class="logo" src="/dc-logo-bg.png" alt="">
-            </div> -->
+            </div>
 
     </div>
 </template>
@@ -85,9 +85,10 @@ export default {
     display: flex;
     justify-content: center;
     padding-top: 25px;
+    position: relative;
 
     .padding-5 {
-        padding: 20px;
+        padding: 20px 20px;
     }
 }
 
@@ -102,19 +103,24 @@ div h3 {
     padding: 10px;
 }
 
-div a {
+a {
     color: lightgrey;
     margin: 0;
-    padding: 5px 10px;
+    padding: 15px 10px;
     text-decoration: none;
 }
 li{
     list-style: none;
+    padding-top: 5px;
     
 }
 
 .logo {
-    width: 80%;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    right: 300px;
 }
 
 

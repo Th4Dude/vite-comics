@@ -25,9 +25,6 @@ export default {
                     <li>Social</li>
                 </ul>
             </div>
-
-
-
         </div>
 
     </section>
@@ -38,6 +35,8 @@ export default {
 
 <style lang="scss" scoped>
 .main_container {
+    position: absolute;
+    z-index: 100;
     background-color: #303030;
     width: 100%;
     display: flex;
@@ -57,6 +56,7 @@ button {
     background-color: #303030;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .social {
