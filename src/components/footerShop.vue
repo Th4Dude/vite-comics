@@ -29,11 +29,7 @@ export default {
         }
     }
 }
-
 </script>
-
-
-
 
 <template>
 
@@ -49,6 +45,7 @@ export default {
 
 </template>
 <style lang="scss" scoped>
+
 .main_container {
 
     background-color: #0282f9;
@@ -67,6 +64,7 @@ export default {
 
     .flex {
         display: flex;
+        align-items: center;
     }
 
     img {

@@ -3,7 +3,40 @@
 export default {
     data() {
         return {
-            name: 'footerInfo'
+            name: 'footerInfo',
+            comics: [
+                "Characters",
+                "Comics",
+                "Movies",
+                "TV",
+                "Games",
+                "Videos",
+                "News"
+            ],
+            shop: [
+                "Shop DC",
+                "Shop DC Collectibles"
+            ],
+            dc: [
+                "Terms Of Use",
+                "Privacy policy (New)",
+                "Ad Choices",
+                "Advertising",
+                "Jobs",
+                "Subscriptions",
+                "Talent Workshops",
+                "CPSC Certificates",
+                "Ratings",
+                "Shop Help",
+                "Contact Us"
+            ],
+            sites: [
+                "DC",
+                "MAD Magazine",
+                "DC Kids",
+                "DC Universe",
+                "DC Power Visa"
+            ]
         }
     }
 }
@@ -17,40 +50,20 @@ export default {
             <div class="padding-5">
                 <div>
                     <h3>DC COMICS</h3>
-                    <h5>Comics</h5>
-                    <h5>PG</h5>
-                    <h5>Background</h5>
-                    <h5>Whitelist</h5>
-                    <h5>LetsgoToSee</h5>
-                    <h5>Yeaa</h5>
-                    <h5>Davaiii</h5>
+                    <li v-for="comic in comics"><a href="#">{{ comic }}</a></li>
                 </div>
                 <div>
                     <h3>SHOP</h3>
-                    <h5>Comics</h5>
-                    <h5>PG</h5>
-                    <h5>Background</h5>
+                    <li v-for="shop in shop"><a href="#">{{ shop }}</a></li>
                 </div>
             </div>
             <div class="padding-5">
                 <h3>DC</h3>
-                <h5>Comics</h5>
-                <h5>PG</h5>
-                <h5>Background</h5>
-                <h5>Whitelist</h5>
-                <h5>LetsgoToSee</h5>
-                <h5>Yeaa</h5>
-                <h5>Davaiii</h5>
+                <li v-for="dc in dc"><a href="#">{{ dc }}</a></li>
             </div>
             <div class="padding-5">
                 <h3>SITE</h3>
-            <h5>Comics</h5>
-            <h5>PG</h5>
-                <h5>Background</h5>
-                <h5>Whitelist</h5>
-                <h5>LetsgoToSee</h5>
-                <h5>Yeaa</h5>
-                <h5>Davaiii</h5>
+            <li v-for="sites in sites"><a href="#">{{ sites }}</a></li>
             </div>
 
         </div>
@@ -62,6 +75,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+
 .container_info {
     width: 100%;
     background-image: url(/footer-bg.jpg);
@@ -73,7 +87,7 @@ export default {
     padding-top: 25px;
 
     .padding-5 {
-        padding-right: 20px;
+        padding: 20px;
     }
 }
 
@@ -88,13 +102,22 @@ div h3 {
     padding: 10px;
 }
 
-div h5 {
+div a {
     color: lightgrey;
     margin: 0;
     padding: 5px 10px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    
 }
 
 .logo {
     width: 80%;
 }
+
+
+
+
 </style>
