@@ -31,7 +31,7 @@ export default {
                     <h5>PG</h5>
                     <h5>Background</h5>
                 </div>
-            </div >
+            </div>
             <div class="padding-5">
                 <h3>DC</h3>
                 <h5>Comics</h5>
@@ -44,8 +44,8 @@ export default {
             </div>
             <div class="padding-5">
                 <h3>SITE</h3>
-                <h5>Comics</h5>
-                <h5>PG</h5>
+            <h5>Comics</h5>
+            <h5>PG</h5>
                 <h5>Background</h5>
                 <h5>Whitelist</h5>
                 <h5>LetsgoToSee</h5>
@@ -55,24 +55,24 @@ export default {
 
         </div>
         <!-- <div >
-            <img class="logo" src="/dc-logo-bg.png" alt="">
-        </div> -->
+                <img class="logo" src="/dc-logo-bg.png" alt="">
+            </div> -->
 
     </div>
 </template>
 
 <style lang="scss" scoped>
-
 .container_info {
     width: 100%;
     background-image: url(/footer-bg.jpg);
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     padding-top: 25px;
-    .padding-5{
+
+    .padding-5 {
         padding-right: 20px;
     }
 }
@@ -93,7 +93,8 @@ div h5 {
     margin: 0;
     padding: 5px 10px;
 }
-.logo{
+
+.logo {
     width: 80%;
 }
 </style>
