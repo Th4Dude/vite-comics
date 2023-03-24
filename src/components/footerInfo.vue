@@ -96,6 +96,7 @@ div h3 {
     color: white;
     margin: 0;
     padding: 10px;
+    cursor: pointer;
 }
 a {
     color: lightgrey;

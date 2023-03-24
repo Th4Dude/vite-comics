@@ -67,11 +67,13 @@ export default {
     img {
         width: 40px;
         height: 50px;
+        cursor: pointer;
     }
 
     h3 {
         color: white;
         padding: 0 25px;
+        cursor: pointer;
 
     }
 }
