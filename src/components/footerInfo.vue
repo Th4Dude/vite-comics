@@ -98,12 +98,17 @@ div h3 {
     padding: 10px;
     cursor: pointer;
 }
+
 a {
-    color: lightgrey;
+    color: #959595;
     margin: 0;
     padding: 15px 10px;
     text-decoration: none;
 }
+a:hover {
+        color: #0c7cec;
+    }
+
 li {
     list-style: none;
     padding-top: 5px;

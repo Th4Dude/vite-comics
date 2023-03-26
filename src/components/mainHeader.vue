@@ -1,5 +1,6 @@
 
 <script>
+
 export default {
     data() {
         return {
@@ -67,7 +68,8 @@ export default {
     }
 
     a:hover {
-        color: blue;
+        color: #0c7cec;
+        border-bottom: 3px solid #0c7cec;
     }
 }
 </style>
