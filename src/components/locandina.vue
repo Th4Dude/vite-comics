@@ -18,22 +18,25 @@ export default {
 </template>
 
 <style scoped>
-.card{
-    width: 190px;
+.card {
+    width: 200px;
 }
-img{
-    width: 190px;
-    height: 190px;
+
+img {
+    width: 200px;
+    height: 200px;
     transition: all 0.3s ease-out;
     cursor: pointer;
 }
+
 img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
-h3{
+
+h3 {
     font-size: 12px;
     padding: 18px 0;
     color: white;
-    
+
 }
 </style>
