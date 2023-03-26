@@ -26,10 +26,14 @@ export default {
 <template>
     <section class="main_box">
         <div class="container_logo_list">
+            <!-- logo -->
             <div class="container_logo"><img src="/dc-logo.png" alt="logo"></div>
+            <!-- logo -->
+            <!-- navbar -->
             <div class="container_list">
                 <li v-for="selector in navbar"><a href="#">{{ selector }}</a></li>
             </div>
+            <!-- navbar -->
         </div>
     </section>
 </template>
@@ -40,7 +44,6 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-
 
     .container_logo_list {
         display: flex;

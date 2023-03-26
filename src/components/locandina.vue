@@ -11,10 +11,12 @@ export default {
 </script>
 
 <template>
+    <!-- locandine -->
     <div class="card">
         <div><img :src="img" alt=""></div>
         <h3>{{ title }}</h3>
     </div>
+    <!-- locandine -->
 </template>
 
 <style scoped>
@@ -37,6 +39,10 @@ h3 {
     font-size: 12px;
     padding: 18px 0;
     color: white;
-
+}
+h3:hover{
+    transition: all 0.4s ease-out;
+    color: #0c7cec ;
+    cursor: pointer;
 }
 </style>

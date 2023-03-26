@@ -43,9 +43,11 @@ export default {
 
 </script>
 <template>
+
     <div class="container_info">
         <div class="container_list_info">
             <div class="padding-5">
+                <!-- v-for-info -->
                 <div>
                     <h3>DC COMICS</h3>
                     <li v-for="comic in comics"><a href="#">{{ comic }}</a></li>
@@ -63,11 +65,16 @@ export default {
                 <h3>SITE</h3>
                 <li v-for="sites in sites"><a href="#">{{ sites }}</a></li>
             </div>
+            <!-- v-for-info -->
         </div>
+        <!-- img logo  -->
         <div>
             <img class="logo" src="/dc-logo-bg.png" alt="">
         </div>
+        <!-- img logo  -->
+
     </div>
+
 </template>
 
 <style lang="scss" scoped>
@@ -81,7 +88,6 @@ export default {
     justify-content: center;
     padding-top: 25px;
     position: relative;
-
     .padding-5 {
         padding: 20px 20px;
     }

@@ -66,18 +66,22 @@ export default {
 
 <template>
     <div class="main_container">
+        <!-- background-img -->
         <div class="background"></div>
+        <!-- background-img -->
         <div class="background_nero">
             <div class="button-top">
                 <button>
                     <h3>CURRENT SERIES</h3>
                 </button>
             </div>
+            <!-- v-for -->
             <div class="container_cards">
                 <locandina v-for="(locandina, index) in locandine" :key="index" :img="locandina.thumb"
                     :title="locandina.series">
                 </locandina>
             </div>
+            <!-- v-for -->
             <div class="button-bottom">
                 <button>
                     <h4>LOAD MORE</h4>
@@ -99,6 +103,7 @@ export default {
         background-image: url(/jumbotron.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-size: 100%;
         height: 400px;
         width: 100%;
     }
@@ -106,6 +111,15 @@ export default {
     .background_nero {
         background-color: #1c1c1c;
     }
+    .container_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1300px;
+        margin: auto;
+        padding: 50px 0;
+    }
+
     button {
         display: flex;
         margin: auto;
@@ -117,7 +131,7 @@ export default {
         transition: all 0.4s ease-out;
         cursor: pointer;
     }
-
+    
     .button-top {
         position: absolute;
         left: 360px;
@@ -132,13 +146,6 @@ export default {
         transform: scale(1.1);
     }
 
-    .container_cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        max-width: 1300px;
-        margin: auto;
-        padding: 50px 0;
-    }
+   
 
 }</style>

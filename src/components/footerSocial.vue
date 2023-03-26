@@ -9,21 +9,26 @@ export default {
 }
 
 </script>
+
 <template>
     <section class="main_container">
         <div class="container_btn_social">
-            <div class="btn">
+            <!-- btn -->
+            <div>
                 <button>Sign-Up Now!</button>
             </div>
-            <div class="social">
+            <!-- btn -->
+            <div class="icons">
                 <h4>FOLLOW US</h4>
+                <!-- img-social -->
                 <ul>
-                    <li><img src="/footer-facebook.png" alt=""></li>
-                    <li><img src="/footer-periscope.png" alt=""></li>
-                    <li><img src="/footer-pinterest.png" alt=""></li>
-                    <li><img src="/footer-twitter.png" alt=""></li>
-                    <li><img src="/footer-youtube.png" alt=""></li>
+                    <button><img src="/footer-facebook.png" alt=""></button>
+                    <button><img src="/footer-periscope.png" alt=""></button>
+                    <button><img src="/footer-pinterest.png" alt=""></button>
+                    <button><img src="/footer-twitter.png" alt=""></button>
+                    <button><img src="/footer-youtube.png" alt=""></button>
                 </ul>
+                <!-- img-social -->
             </div>
         </div>
 
@@ -41,12 +46,14 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container_btn_social {
     width: 1400px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 40px 0;
 }
 
@@ -59,25 +66,37 @@ button {
     cursor: pointer;
 }
 
-.social {
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+}
+
+.icons {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social h4 {
+.icons h4 {
     color: #0282f9;
     font-size: 20px;
 }
 
-.social ul {
+.icons ul {
     display: flex;
     list-style: none;
     padding-left: 15px;
 }
 
-.social ul li {
+.icons ul button {
     padding-right: 20px;
     color: grey;
+    border: none;
+}
+
+h4:hover {
+    color: #0c7cec;
+    border-bottom: 3px solid #0c7cec;
+    cursor: pointer;
 }
 </style>

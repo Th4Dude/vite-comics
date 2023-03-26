@@ -32,15 +32,19 @@ export default {
 </script>
 
 <template>
+
     <div class="main_container">
         <div class="container_icons">
+            <!-- v-for -->
             <div v-for="button in cards" class="flex">
                 <div class="img flex"><img :src="button['image']" alt="">
                     <h3>{{ button.name }}</h3>
                 </div>
             </div>
+            <!-- v-for -->
         </div>
     </div>
+
 </template>
 <style lang="scss" scoped>
 .main_container {
